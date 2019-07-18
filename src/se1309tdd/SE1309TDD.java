@@ -19,7 +19,9 @@ public class SE1309TDD {
     public static void main(String[] args) {
         System.out.println("Thien Bao");
         System.out.println("10:" + GradeChecker.checkGrade(10));
-        System.out.println("10:" + GradeChecker.checkGrade(20));
+        System.out.println("10:" + GradeChecker.checkGrade(2));
+        System.out.println("10:" + GradeChecker.checkGrade(10));
+        System.out.println("10:" + GradeChecker.checkGrade(10));
     }
 
     

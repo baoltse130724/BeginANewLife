@@ -23,8 +23,8 @@ public class SE1309TDD {
         System.out.println("10:" + GradeChecker.checkGrade(10));
         System.out.println("10:" + GradeChecker.checkGrade(10));
         System.out.println("10:" + GradeChecker.checkGrade(22));
-        System.out.println("10:" + GradeChecker.checkGrade(22));
-        System.out.println("This is 7th");
+        System.out.println("10:" + GradeChecker.checkGrade(4));
+        System.out.println("This is 8th");
     }
 
     

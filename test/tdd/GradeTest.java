@@ -24,6 +24,7 @@ public class GradeTest {
         assertEquals('F', GradeChecker.checkGrade(1));
         assertEquals('F', GradeChecker.checkGrade(3));
         assertEquals('N', GradeChecker.checkGrade(-1));
+        assertEquals('N', GradeChecker.checkGrade(-4));
     }
     
     

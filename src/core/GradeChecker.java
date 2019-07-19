@@ -15,9 +15,11 @@ public class GradeChecker {
 
         if (grade < 10 && grade >= 5) {
             return 'P';
-        } else if (grade >= 0 && grade < 5) {
-            return 'F';
-        }
+        } 
+//        else if (grade >= 0 && grade < 5) {
+//            return 'F';
+//        }
+        
         return 'N';
     }
 }

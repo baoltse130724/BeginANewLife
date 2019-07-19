@@ -23,7 +23,7 @@ public class GradeTest {
         assertEquals('P', GradeChecker.checkGrade(5));
         assertEquals('F', GradeChecker.checkGrade(1));
         assertEquals('F', GradeChecker.checkGrade(3));
-        assertEquals('N', GradeChecker.checkGrade(-1));
+        assertEquals('d', GradeChecker.checkGrade(-1));
     }
     
     

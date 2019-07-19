@@ -20,7 +20,10 @@ public class GradeTest {
         //using color inteads of sout
         //each test used to test each function in core code
         assertEquals('P', GradeChecker.checkGrade(10));
-        assertEquals('F', GradeChecker.checkGrade(5));
+        assertEquals('P', GradeChecker.checkGrade(5));
+        assertEquals('F', GradeChecker.checkGrade(1));
+        assertEquals('F', GradeChecker.checkGrade(3));
+        assertEquals('N', GradeChecker.checkGrade(-1));
     }
     
     
